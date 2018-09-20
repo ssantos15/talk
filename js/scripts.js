@@ -15,7 +15,9 @@ $(function() {
   });
   $("#stop").click(function() {
     $("ul#user").append("<li>STOP COPYING ME!!!!</li>");
-    $("ul#webpage").append("<li>Shut up hoe!!</li>");
+    $("ul#webpage").append("<li>Expeleomus!!!!!</li>");
   });
-
+  $("#bgColor").click(function() {
+    $("body").toggleClass("backgroundColor");
+  });
 });
